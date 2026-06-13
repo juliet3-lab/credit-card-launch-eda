@@ -125,7 +125,7 @@ pip install pandas numpy matplotlib seaborn scipy jupyter
 
 Some files are zipped due to GitHub's 25MB upload limit:
 - Unzip `transactions.zip` to get `transactions.csv`
-- Unzip `e_master_card.zip` to get the MySQL dump file
+- Unzip `e_master_card_dump.zip` to get the MySQL dump file
 ---
 
 **4. Launch the notebooks in order**
