@@ -164,9 +164,9 @@ jupyter notebook
 
 ## 👤 Author
 
-**Florence Arul Juliet** — Banking Domain Professional transitioning into Data Science & AI
+**Florence Arul Juliet** — Banking Domain Professional | Data Analyst & AI Builder
 
-- 💼 3.7 years in BFSI · Fraud Detection · Transaction Analysis
+- 💼 3.7 years in BFSI · Fraud Detection · Transaction Analysis · Data-Driven Banking Solutions
 
 ---
 
