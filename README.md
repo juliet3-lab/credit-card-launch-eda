@@ -65,6 +65,13 @@ Recommendation to bank
 **Conclusion:** The 18–25 age group was identified as the **ideal target market** for a trial credit card launch — they have spending potential but lack credit access, making them an underserved high-opportunity segment.
 
 ---
+### 📊 Visual Findings — Target Segment Profile
+
+![Target Segment Analysis](target_segment_analysis.png)
+
+This dashboard visualises why the 18–25 age group emerged as the ideal target — sizable customer base (~26%) with low income, limited credit history, low credit card usage, and clear spending preferences in Electronics, Fashion, and Beauty categories.
+
+---
 
 ## 📓 Notebook 2 — Hypothesis Testing & A/B Testing
 
@@ -113,29 +120,37 @@ cd credit-card-launch-eda
 ```bash
 pip install pandas numpy matplotlib seaborn scipy jupyter
 ```
+---
+**3. Unzip the dataset files**
 
-**3. Launch the notebooks in order**
+Some files are zipped due to GitHub's 25MB upload limit:
+- Unzip `dataset/transactions.zip` to get `transactions.csv`
+- Unzip `dataset/e_master_card.zip` to get the MySQL dump file
+---
+
+**4. Launch the notebooks in order**
 ```bash
 jupyter notebook
 ```
-- Run `01_customer_segmentation_eda.ipynb` first to understand the target segment selection
-- Then run `02_hypothesis_ab_testing.ipynb` to see the campaign validation analysis
+- Run `Phase_1_customer_segmentation_eda.ipynb` first to understand the target segment selection
+- Then run `Phase_2_hypothesis_ab_testing.ipynb` to see the campaign validation analysis
 
----
+----
 
 ## 📁 Project Structure
 
 ```
-credit-card-launch-eda/
-├── 01_customer_segmentation_eda.ipynb    # Target segment identification
-├── 02_hypothesis_ab_testing.ipynb        # Campaign effectiveness validation
-├── data/
-│   ├── customers.csv
-│   ├── transactions.csv
-│   ├── credit_profiles.csv
-│   └── avg_transactions_after_campaign.csv
+├── Phase_1_customer_segmentation_eda.ipynb
+├── Phase_2_hypothesis_ab_testing.ipynb
+├── target_segment_analysis.png 
+├── .gitignore
 ├── README.md
-└── .gitignore
+└── dataset/
+    ├── customers.csv
+    ├── transactions.zip        # Unzip before running notebook (50K rows)
+    ├── credit_profiles.csv
+    ├── avg_transactions_after_campaign.csv
+    └── e_master_card_dump.zip  # Unzip to get MySQL dump file
 ```
 
 ---
