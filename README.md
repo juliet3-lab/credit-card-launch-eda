@@ -124,8 +124,8 @@ pip install pandas numpy matplotlib seaborn scipy jupyter
 **3. Unzip the dataset files**
 
 Some files are zipped due to GitHub's 25MB upload limit:
-- Unzip `dataset/transactions.zip` to get `transactions.csv`
-- Unzip `dataset/e_master_card.zip` to get the MySQL dump file
+- Unzip `transactions.zip` to get `transactions.csv`
+- Unzip `e_master_card.zip` to get the MySQL dump file
 ---
 
 **4. Launch the notebooks in order**
@@ -145,12 +145,11 @@ jupyter notebook
 ├── target_segment_analysis.png 
 ├── .gitignore
 ├── README.md
-└── dataset/
-    ├── customers.csv
-    ├── transactions.zip        # Unzip before running notebook (50K rows)
-    ├── credit_profiles.csv
-    ├── avg_transactions_after_campaign.csv
-    └── e_master_card_dump.zip  # Unzip to get MySQL dump file
+├── customers.csv
+├── transactions.zip        # Unzip before running notebook (50K rows)
+├── credit_profiles.csv
+├── avg_transactions_after_campaign.csv
+└── e_master_card_dump.zip  # Unzip to get MySQL dump file
 ```
 
 ---
